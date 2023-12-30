@@ -111,7 +111,7 @@ void buildhuffmantree(string text) {
 
 int main() {
 	string str;
-	ifstream in("TextFile1");
+	ifstream in("input.txt");
 	//in.open("TextFile1.txt");
 	//getline(in, str);
 	while (getline(in, str))
